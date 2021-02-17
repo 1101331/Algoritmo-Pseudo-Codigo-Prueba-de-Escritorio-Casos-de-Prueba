@@ -1,0 +1,105 @@
+CASO 1
+INPUT = 1234
+-------------------------- (Corresponde a la iteracion del bucle principal)
+(inicial)input:1234 |digits: |sum:0 |t:1234 |i:1 |
+input:1234 |digits: |sum:0 |t:123 |i:2 |
+input:1234 |digits: |sum:0 |t:12 |i:3 |
+input:1234 |digits: |sum:0 |t:1 |i:4 |
+
+(inicial)input:1234 |digits:4 |sum:0 |t:1 |i:1000 |
+input:234 |digits:4 |sum:1 |t:1 |i:100 |
+input:34 |digits:4 |sum:3 |t:1 |i:10 |
+input:4 |digits:4 |sum:6 |t:1 |i:1 |
+input:0 |digits:4 |sum:10 |t:1 |i:0 |
+
+--------------------------
+(inicial)input:10 |digits:4 |sum:0 |t:10 |i:1 |
+input:10 |digits:4 |sum:0 |t:1 |i:2 |
+
+(inicial)input:10 |digits:2 |sum:0 |t:1 |i:10 |
+input:0 |digits:2 |sum:1 |t:1 |i:1 |
+input:0 |digits:2 |sum:1 |t:1 |i:0 |
+
+---------------------------------
+(inicial)input:1 |digits:2 |sum:0 |t:1 |i:1 |
+input:1 |digits:1 |sum:0 |t:1 |i:1 |
+
+FIN DE LA PRUEBA
+
+CASO 2
+INPUT = 99
+--------------------
+(inicial)input:99 |digits: |sum:0 |t:99 |i:1 |
+input:99 |digits: |sum:0 |t:9 |i:2 |
+
+(incial)input:99 |digits:2 |sum:0 |t:9 |i:10 |
+input:9 |digits:2 |sum:9 |t:9 |i:1 |
+input:0 |digits:2 |sum:18 |t:9 |i:0 |
+
+------------------------------------------
+(inicial)input:18 |digits:2 |sum:0 |t:18 |i:1 |
+input:18 |digits:2 |sum:0 |t:1 |i:2 |
+
+(incial)input:18 |digits:2 |sum:0 |t:18 |i:10 |
+input:8 |digits:2 |sum:1 |t:18 |i:1 |
+input:0 |digits:2 |sum:9 |t:18 |i:0 |
+
+---------------------------------------
+(incial)input:9 |digits:2 |sum:0 |t:9 |i:1 |
+input:9 |digits:2 |sum:0 |t:9 |i:1 |
+
+FIN DE LA PRUEBA
+
+CASO 3
+INPUT 0
+---------------
+(inicial)input:0 |digits: |sum:0 |t:0 |i:1 |
+input:0 |digits:1 |sum:0 |t:0 |i:1 |
+
+FIN DE LA PRUEBA
+
+CASO 4
+INPUT 10000
+----------------
+(inicial)input:10000 |digits: |sum:0 |t:10000 |i:1 |
+input:10000 |digits: |sum:0 |t:1000 |i:2 |
+input:10000 |digits: |sum:0 |t:100 |i:3 |
+input:10000 |digits: |sum:0 |t:10 |i:4 |
+input:10000 |digits: |sum:0 |t:1 |i:5 |
+
+(inicial)input:10000 |digits:5 |sum:0 |t:1 |i:10000 |
+input:0 |digits:5 |sum:1 |t:1 |i:1000 |
+input:0 |digits:5 |sum:1 |t:1 |i:100 |
+input:0 |digits:5 |sum:1 |t:1 |i:10 |
+input:0 |digits:5 |sum:1 |t:1 |i:1 |
+input:0 |digits:5 |sum:1 |t:1 |i:0 |
+--------------------------------
+(inicial)input:1 |digits:5 |sum:0 |t:1 |i:1 |
+input:1 |digits:1 |sum:0 |t:1 |i:1 |
+
+FIN DE LA PRUEBA
+
+CASO 5
+INPUT 321
+-----------------
+(inicial)input:321 |digits: |sum:0 |t:321 |i:1 |
+input:321 |digits: |sum:0 |t:32 |i:2 |
+input:321 |digits: |sum:0 |t:3 |i:3 |
+
+(inicial)input:321 |digits:3 |sum:0 |t:3 |i:100 |
+input:21 |digits:3 |sum:3 |t:3 |i:10 |
+input:1 |digits:3 |sum:5 |t:3 |i:1 |
+input:0 |digits:3 |sum:6 |t:3 |i:0 |
+
+-------------------
+(inicial)input:6 |digits:3 |sum:0 |t:6 |i:1 |
+input:6 |digits:1 |sum:0 |t:6 |i:1 |
+
+FIN DE LA PRUEBA
+
+
+
+
+
+
+

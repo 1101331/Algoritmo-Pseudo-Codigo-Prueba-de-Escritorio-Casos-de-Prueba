@@ -1,0 +1,8 @@
+Inicio del algoritmo.
+Se pregunta, mostrando por pantalla, si el usuario quiere agendar una cita, una reunion
+o un compromiso.
+Se pregunta al usuario una titulo y una descripcion del evento y se guarda la entrada del
+usuario.
+Luego se pregunta al usuario la fecha del evento. Si la fecha es valida, todos los datos
+previamente entrados son guardados en una base de datos. Si no, se pide que el usuario
+entre una fecha valida.

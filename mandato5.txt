@@ -1,0 +1,26 @@
+INICIO
+declarar variables input, digits, sum, t, i
+pedir input
+
+hacer en bucle
+	sum = 0
+	i = 1
+	t = input
+	mientras t/10 > 0 hacer en bucle
+		t =/ 10
+		i++
+	fin de bucle
+	digits = i
+	si digits < 2 hacer
+		salir del bucle
+	fin de si
+	
+	i = 10 ^ (digits - 1)
+	mientras i > 0 hacer en bucle
+		sum += input / i
+		input = input % i
+		i =/ 10
+	fin de bucle
+	input = sum
+mientras digits > 1
+FIN
